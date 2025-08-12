@@ -1,0 +1,404 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <title>CS 6120 Natural Language Processing</title>
+</head>
+
+<body>
+
+
+  <!--main content -->
+  <div class="container">
+
+     <header>
+         <div>
+         <h1>CS 6120: Natural Language Processing</h1>
+         <h2 class="subtitle">Fall 2025</h2>
+        <img src='nlp_movies.png' style="width: 70%; height: auto;">
+         </div>
+        
+     </header>
+      
+    <section>
+      <h2>Course Details</h2>
+      <p><b>Location: </b></p>
+        <li>Session 21600: West Village H, Room 366</li>
+        <li>Session 21601: Richards Hall, Room 236</li>
+      <p><b>Time:</b></p>
+        <li>Session 21600: Tuesday & Friday 1:35-3:15pm</li>
+        <li>Session 21601: Tuesday & Friday 3:25-5:05pm</li>
+      <p><b>Grading:</b> </p>
+        <p>5 programming assignments (30%), 6 quizzes (30%), and course project: initial pitch, research plan, sample data, grade contract, presentation, final report (40%)</p>
+      
+        
+      <h3><a href="">Syllabus and course policies</a></h3>
+      <h3><a href="">Accommodations for Students with Disabilities</a></h3>
+      <h3><a href="">Gradescope</a></h3>
+    </section>
+
+    <section>
+      <h2>Course Staff</h2>
+      <h3>Instructors: </h3>
+        <p>Session 21600: <a href='https://www.khoury.northeastern.edu/home/dasmith/'>David Smith</a>, email: dasmith[at]ccs.neu.edu</p>
+        <p>Session 21601: <a href="https://siwu.io">Si Wu</a>, email: siwu[at]ccs.neu.edu</p>
+        
+        
+      <p>Office hours: TBA</p>
+        
+      <h3>TAs:</h3>
+    </section>
+
+    <section class="announcement">
+      <h2>Announcement</h2>
+      <p><time datetime="2025-08-12">8/12/2025</time> — The class website is up!</p>
+        
+        
+    </section>
+
+        <section>
+          <h2>Schedule</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Week, date</th>
+                <th>Topics</th>
+                <th>Lecture Slides &amp; Reading</th>
+                <th>Assignments</th>
+                <th>Others</th>
+              </tr>
+            </thead>
+              
+            <tbody>
+              
+              <tr>
+                <td>1, Fri, 9/5</td>
+                <td>Introduction and Course Logistics: Language Models in Brains and Machines</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td>Assignment 1 released: Counting words and evaluating language models</td>
+                <td></td>
+              </tr>
+              
+
+              <tr>
+                <td>2, Tues, 9/9</td>
+                <td>Words, regular expressions, and n-gram (Markov) models</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+              <tr>
+                <td>2, Fri, 9/12</td>
+                <td>Text classification: naive bayes, logistic regression, and friends</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+              <tr>
+                <td>3, Tues, 9/16</td>
+                <td>Word embeddings</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td>Assignment 1 due (11:59pm), Assignment 2 released: Interpreting classifiers</td>
+                <td></td>
+              </tr>
+                
+                
+                
+                
+              <tr>
+                <td>3, Fri, 9/19</td>
+                <td>Introduction to neural networks</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                
+              <tr>
+                <td>4, Tues, 9/23</td>
+                <td>Beyond words: Morphology, syntax, and semantics</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                
+               <tr>
+                <td>4, Fri, 9/26</td>
+                <td>Sequence data, recurrent networks, and attention</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                
+               <tr>
+                <td>5, Tues, 9/30</td>
+                <td>Transformers</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td>Assignment 2 due (11:59pm), Assignment 3 released: Probing transformers</td>
+                <td></td>
+              </tr>
+                
+                
+             
+              <tr>
+                <td>5, Fri, 10/3</td>
+                <td>A Taxonomy of Large Language Models: Data, weights, training, and inference</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td>Project pitch due (11:59pm)</td>
+              </tr>
+                
+                <tr>
+                <td>6, Tues, 10/7</td>
+                <td>Pretraining</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td> </td>
+              </tr>
+                
+                
+                <tr>
+                <td>6, Fri, 10/10</td>
+                <td>Generation algorithms</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                <tr>
+                <td>7, Tues, 10/14</td>
+                <td>Post-training: RLHF, DPO, and friends</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td>Assignment 3 due (11:59pm)</td>
+                <td></td>
+              </tr>
+                
+                
+                <tr>
+                <td>7, Fri, 10/17</td>
+                <td>Prompting and in-context learning</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                <tr>
+                <td>8, Tues, 10/21</td>
+                <td>Evaluation, benchmarks, and experimental design</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                <tr>
+                <td>8, Fri, 10/24</td>
+                <td>Retrieval, retrieval-augmented generation, and summarization</td>
+                <td>
+                  <a>Slides</a><br>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                <tr>
+                <td>9, Tues, 10/28</td>
+                <td>Multilinguality</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>9, Fri, 10/31</td>
+                <td>Beyond individuals: Language in social context</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>10, Tues, 11/4</td>
+                <td>Language and visual context</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>10, Fri, 11/7</td>
+                <td>Guest lecture</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>11, Tues, 11/11</td>
+                <td>No class, Veterans Day</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>11, Fri, 11/14</td>
+                <td>Guest lecture</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>12, Tues, 11/18</td>
+                <td>Guest lecture</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>12, Fri, 11/21</td>
+                <td>Guest lecture</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>13, Tues, 11/25</td>
+                <td>Final lecture: student suggested topics</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>13, Fri, 11/28</td>
+                <td>No class, Thanksgiving 🦃</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>14, Tues, 12/2</td>
+                <td>Project presentations</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                <tr>
+                <td>14, Fri, 12/5</td>
+                <td>Project presentations</td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+                
+                
+                <tr>
+                <td>15, Thurs, 12/11</td>
+                <td></td>
+                <td>
+                  <a></a><br>
+                  <a></a>
+                </td>
+                <td></td>
+                <td>Final report due (11:59pm)</td>
+              </tr>
+              
+                
+                
+            </tbody>
+          </table>
+        </section>
+
+        
+    <!--  calendar ends here--> 
+        
+        
+
+  </div> 
+
+</body>
+</html>
